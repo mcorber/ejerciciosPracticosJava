@@ -156,18 +156,12 @@ public class Ejercicio1 {
                moda = i;
            }
        }
-
+        //Comprobamos que algún numero se repita, es decir, que haya alguna moda
        if(moda != Integer.MIN_VALUE){
            System.out.println("El número que más se repite es : "+moda+" y se repite "+maxFrecuencia+" veces");
        }else{
            System.out.println("No hay ninguna moda");
        }
-
-
-
-
-
-
 
     }
 }
